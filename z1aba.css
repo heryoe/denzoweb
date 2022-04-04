@@ -3,6 +3,7 @@
             background-size: 140%;
                            }
 
+
                    /*------------*/
                    /* Encabezado */
                    /*------------*/
@@ -56,9 +57,9 @@
 
 
 
-                      /*-------*/
-                      /* Giros */
-                      /*-------*/
+              /*---------------------*/
+              /* Títulos Zona y Giro */
+              /*---------------------*/
                  .titu_zona{
                       width: 340px;
                      height: 25px;
@@ -79,29 +80,21 @@
                 font-weight: bold;
                            }
 
-                   .aba1nom{
-                  font-size: 40px; 
-                      color: yellow;
-                           }
 
-                    .marco1{
-                      width: 180px;
-                     height: 60px;
-           background-color: red;
-              border-radius: 30px
-                           }
 
-                   .aba1dir{
-                  font-size: 25px;
-                      color: white;
-                           }
+                    /*----------*/
+                    /* Negocios */
+                    /*----------*/
+                   .aba1nom{font-size: 40px;color: yellow;}
+              .marcoaba1nom{width: 180px;height: 60px;background-color: red;border-radius: 30px}
+                   .aba1dir{font-size: 25px;color: white;}
+              .marcoaba1dir{width: 300px;height: 120px;background-color: blue;border-radius: 20px;}
  
-                    .marco2{
-                      width: 300px;
-                     height: 120px;
-           background-color: blue;
-              border-radius: 20px;
-                           }
+                   .aba2nom{font-size: 40px;color: yellow;}
+              .marcoaba2nom{width: 300px;height: 60px;background-color: red;border-radius: 30px}
+                   .aba2dir{font-size: 25px;color: white;}
+              .marcoaba2dir{width: 300px;height: 120px;background-color: blue;border-radius: 20px;}
+
 
                       /*-------*/
                       /* Fecha */
