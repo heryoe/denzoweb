@@ -1,0 +1,120 @@
+                       body{margin: 0;top: 0;
+                 background: url(mar1.jpg);
+            background-size: 140%;
+                           }
+
+                   /*------------*/
+                   /* Encabezado */
+                   /*------------*/
+                     .titu1{
+                  font-size: 30px;
+                      color: yellow;
+                font-weight: bold;
+                           }
+
+                  .regresar{
+                   position: absolute;
+                      width: 20px;
+              border-radius: 50px;
+                        top: 7px;
+                       left: 10px;
+                           }
+
+                    .inicio{
+                   position: absolute;
+                      width: 25px;
+              border-radius: 50px;
+                        top: 5px;
+                      right: 5px;
+                           }
+
+                     .titu2{
+                  font-size: 22px;
+                      color: black;
+           background-color: lightgreen;
+     border-top-left-radius: 20px;
+ border-bottom-right-radius: 40px;
+                font-weight: bold;
+                           }
+ 
+                    .marque{
+                 margin-top: 10px;
+                      width: 10px;
+                     height: 10px;
+           background-color: red;
+              border-radius: 50px;
+        animation-direction: alternate; 
+             animation-name: caminar_marque;
+         animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0)
+                           }
+
+  @keyframes caminar_marque{
+                       100%{margin-left: 97%;}
+                           }
+
+
+
+                      /*-------*/
+                      /* Giros */
+                      /*-------*/
+                 .titu_zona{
+                      width: 340px;
+                     height: 25px;
+                  font-size: 20px;
+                      color: blue;
+           background-color: white;
+              border-radius: 5px;
+                font-weight: bold;
+                           }
+
+                     .giros{
+                    display: block;
+                  font-size: 20px;  
+                      color: white;   
+              border-radius: 20px;
+                 margin-top: 25px;
+           background-color: blue;
+                           }
+ 
+ 
+
+                      /*-------*/
+                      /* Fecha */
+                      /*-------*/
+                     .fecha{
+                font-weight: bold;
+              border-radius: 40px;
+                           }
+
+                    .fecha1{
+                      color: yellow;
+                      width: 200px;
+                     height: 73px;
+           background-color: red;
+                  font-size: 20px;
+              border-radius: 40px;
+                 margin-top: -130px;
+                    opacity: 0;
+        transition-property: opacity;
+        transition-duration: 1.5s;
+                           }
+
+        .fe:hover > .fecha1{opacity: 1;}
+
+                   .version{font-size: 70px;display: none;}
+
+
+
+
+              /*-----------------------*/
+              /* Ajuste a Dispositivos */
+              /*-----------------------*/
+         @media screen and (min-width: 700px) /*Todo*/ 
+                           { 
+                     header{display: none;}
+                      aside{display: none;}
+                     footer{display: none;}
+                   .version{display: block;} 
+                           }
