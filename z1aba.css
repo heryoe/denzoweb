@@ -60,7 +60,7 @@
                       /* Giros */
                       /*-------*/
                  .titu_zona{
-                      width: 280px;
+                      width: 340px;
                      height: 25px;
                   font-size: 20px;
                       color: blue;
@@ -70,7 +70,7 @@
                            }
 
                  .titu_giro{
-                      width: 100px;
+                      width: 130px;
                      height: 25px;
                   font-size: 20px;
                       color: blue;
