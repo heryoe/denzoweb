@@ -113,12 +113,11 @@
                /*---------------------*/
                /* Negocios[barberías] */
                /*---------------------*/
-                   .barbe1nom{font-size: 30px;color: yellow;}
-              .marcobarbe1nom{width: 100%;height: 40px;background-color: red;border-radius: 30px}
-                   .barbe1dir{font-size: 25px;color: white;}
-              .marcobarbe1dir{width: 300px;height: 120px;background-color: blue;border-radius: 20px;}
- 
-       
+                   .barbenom{font-size: 25px;color: yellow;}
+              .marcobarbenom{width: 100%;height: 35px;background-color: red;border-radius: 30px}
+                   .barbedir{font-size: 20px;color: white;}
+              .marcobarbedir{width: 300px;height: 100px;background-color: blue;border-radius: 20px;}
+        
 
 
                       /*-------*/
