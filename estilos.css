@@ -95,6 +95,21 @@
                        100%{object-position: center;}
                            }
 
+
+
+                      /*-------*/
+                      /* Citas */
+                      /*-------*/
+                     .citas{
+           background-image: url(citas/citas.jpg);
+      background-attachment: fixed;
+            background-size: 80%;
+          background-repeat: no-repeat;
+                      width: 270px;
+                     height: 380px;
+              border-radius: 20px;
+        background-position: center;
+                           }
          
 
 
